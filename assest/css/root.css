@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'navbar.css';
+@import 'invite.css';
+@import 'reasons.css';
+@import 'mobile.css';
+@import 'car.css';
+@import 'rules.css';
+@import 'world.css';
+@import 'footer.css';
+
+* {
+  font-family: 'Roboto', sans-serif;
+  /* color: #fff */
+}
+
+
+button {
+  border: none;
+}
+
+
+.possibilities {
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 20px;
+}
+
+.bgb {
+  color: white;
+  background-color: black;
+}
+
+.bgw {
+  color: #222222;
+  background-color: white;
+}
+
+.cb {
+  color: #222222;
+}
+
+.cw {
+  color: white;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 15px;
+}
+
+.subheading {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  width: fit-content;
+}
+
+
+.cc {
+  color: #1EACC7;
+}
+
+.facc {
+  color: #1EACC7 !important;
+  padding-right: 2px;
+}
+
+.cr {
+  color: #FF5656;
+}
+
+.facr {
+  color: #FF5656 !important;
+  padding-right: 2px;
+}

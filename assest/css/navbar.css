@@ -1,0 +1,33 @@
+header {
+    background-color: #212121;
+  }
+  
+  nav .vertical_hr {
+    border-left: 2px solid #000;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: dotted;
+    height: 31px;
+  }
+  
+  nav .nav-item {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .nav_item {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 0 !important;
+  }
+  
+  .hidden-one {
+    height: 56px;
+  }
+  

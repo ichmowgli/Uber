@@ -1,0 +1,154 @@
+.invite {
+    min-height: 800px;
+    position: relative;
+    background-image: url(../img/invite_bg.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+  }
+  
+  .invite_bar {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    background-color: rgb(0,0,0,0.6);
+    min-height: 87px;
+  }
+  
+  .invite_bar * {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .invite_bar_xs * {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .invite_bar_logo {
+    min-width: 130px;
+    max-width: 285px;
+  }
+  
+  .invite_bar_partner {
+    font-weight: 200;
+    font-size: 13px;
+  }
+  
+  .invite_bar_call_us {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .invite_bar_call_us_text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: end;
+  }
+  
+  .invite_bar_call_us_phone {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: end;
+  }
+  
+  @media (max-width: 400px) {
+    .invite_bar_call_us_phone {
+      font-size: 16px;
+    }
+  }
+  
+  .invite_bar_call_us_sm {
+    display: flex;
+    flex-direction: column;
+    max-width:100%;
+    overflow: hidden;
+  }
+  
+  .invite_bar_call_us_sm .invite_bar_call_us_phone {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  
+  .request_call {
+    margin: 20px auto;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 162px;
+    height: 46px;
+  }
+  
+  @media (max-width: 500px) {
+    .request_call {
+      font-size: 12px;
+      height: 22px;
+      width: fit-content;
+    }
+  }
+  
+  
+  .invite_bar_call_us_sm .request_call {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .invite_indentica {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .invite_text {
+    margin: 67px auto 0;
+    align-items: center;
+    text-align: center;
+    max-width: 985px;
+  }
+  
+  .invite_text *  {
+    text-align: center;
+  }
+  
+  .invite_text_heading {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 350px) {
+    .invite_text_heading {
+      font-size: 50px;
+    }
+  }
+  
+  .invite_text_subheading {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  
+  .invite_text .ordinary {
+    font-size: 18px;
+  }
+  
+  
+  .send_request {
+    margin: 115px auto 0px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 259px;
+    height: 63px;
+  }

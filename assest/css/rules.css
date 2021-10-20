@@ -1,0 +1,20 @@
+.rules_ruleset {
+    padding-bottom: 60px;
+  }
+  
+  .ruleset_header {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .rules_ruleset ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .rules_ruleset ul li {
+    color: #222222;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
