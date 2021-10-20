@@ -1,0 +1,24 @@
+.world {
+    background-image: url('../img/world_bg.png');
+    min-height: 360px;
+    position: relative;
+  }
+  
+  @media (min-width: 768px) {
+    .world {
+      background-image: url('../img/world_bg.png');
+      min-height: 716px;
+    }  
+  }
+  
+  .see_all {
+    border: none;
+    background: none;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }

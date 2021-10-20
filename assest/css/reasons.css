@@ -1,0 +1,34 @@
+.reasons {
+    background-color: #fff;
+  }
+  
+  .reasons_reason {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    display: flex;
+  }
+  
+  .reasons_reason_icon {
+    background-color: #1EACC7;
+    width: 116px;
+    height: 116px;
+    min-width: 116px;
+    max-width: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .reasons_reason_heading {
+    color: #1EACC7;
+    font-size: 17px;
+    line-height: 21px;
+    overflow-wrap: anywhere;
+  }
+  
+  .reasons_reason_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+  }

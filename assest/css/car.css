@@ -1,0 +1,17 @@
+.car {
+    background-image: url("../img/car/bg-dark.png");
+    /* background-repeat: no-repeat; */
+    background-position: top;
+  }
+  
+  @media (min-width: 768px) {
+    .car {
+      background-image: url("../img/car/bg-dark.png"), url("../img/car/bg-light.png");
+      background-repeat: no-repeat, no-repeat;
+      background-position: top, bottom;
+    }
+  }
+  
+  .car_container {
+    margin-top: 54px;
+  }

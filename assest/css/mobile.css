@@ -1,0 +1,56 @@
+.mobile {
+    background-image: url('../img/mobile_bg.png');
+  }
+  
+  .mobile_possibility {
+    background-image: url('../img/mobile/1.png');
+    background-position: center;
+    margin: 0 auto 15px;
+    min-width: 320px;
+    min-height: 280px;
+    position: relative;
+  }
+  
+  @media (max-width: 350px) {
+    .mobile_possibility {
+      min-width: 300px;
+  
+    }
+  }
+  
+  .mobile_possibility_text {
+    padding-top: 75px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    /* margin-bottom: 72px; */
+  }
+  
+  .btn-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #222222;
+    color: #1EACC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .plus_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 26px;
+    height: 26px;
+    background-color: #000000;
+    margin: 0 auto;
+    border-radius: 100%;
+    cursor: pointer;
+  }
